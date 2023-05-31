@@ -1,6 +1,4 @@
 import React, {Component} from "react";
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
 import "react-native-gesture-handler";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -10,6 +8,7 @@ import WebViewComponent from "./components/WebViewComponent.js";
 import { MovieProvider } from "./contexts/MovieContexts.js";
 import MovieList from "./components/MovieList.js";
 import AddMovieForm from "./components/MovieForm.js";
+import MovieDetails from "./components/MovieDetails.js";
 
 const Stack = createStackNavigator();
 
