@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should show hello world 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#ffffff",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "marginTop": 32,
+        "paddingHorizontal": 24,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 24,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Hello World!
+    </Text>
+  </View>
+</View>
+`;
